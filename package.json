@@ -1,0 +1,17 @@
+{
+  "name": "unit-testing2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translator.text.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1"
+  }
+}
