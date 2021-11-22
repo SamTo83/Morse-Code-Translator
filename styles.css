@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(./images/code__BG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  color: #efefef;
+}
+
+.container {
+  background-color: #054114;
+  height: 250px;
+  width: 300px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 20px;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.label {
+  font-size: 1rem;
+  color: #efefef;
+}
+
+.submit, .clear {
+  background-color: #054114;
+  color: #efefef;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}

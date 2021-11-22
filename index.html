@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Morse code translator</title>
 </head>
 <body>
@@ -12,14 +13,19 @@
 
   <main>
     <div class="container">
-      <label for="user-input">English</label>
+      <div>
+        <label class="label" for="user__input">English</label>
+      <textarea name="user__input" id="user__input" placeholder="Start typing..." cols="38" rows="10"></textarea>
       <button class="submit">Submit</button>
-      <textarea name="user-input" id="user-input" placeholder="Start typing..." cols="30" rows="10"></textarea>
+      </div>
     </div>
 
     <div class="container">
-      <label for="translation">Morse Code</label>
-      <textarea name="translation" id="translation" cols="30" rows="10"></textarea>
+      <div>
+        <label class="label" for="translation">Morse Code</label>
+        <textarea name="translation" id="translation" cols="38" rows="10"></textarea>
+        <button class="clear">Clear</button>
+      </div>
     </div>
   </main>
 
