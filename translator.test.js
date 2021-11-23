@@ -11,30 +11,6 @@ import { it, expect } from '@jest/globals';
 
 //describe
 describe('Translate the morse code to letters', () => {
-  it("translate A  to .-", () => {
-    let result = translate('a');
-    expect(result).toBe(".-");
-  })
-  it("translate B  to -...", () => {
-    let result = translate('b');
-    expect(result).toBe("-...");
-  })
-  it("translate C to -.-.", () => {
-    let result = translate('c');
-    expect(result).toBe("-.-.");
-  })
-  it("translate D to -..", () => {
-    let result = translate('d');
-    expect(result).toBe("-..");
-  })
-  it("translate E to .", () => {
-    let result = translate('e');
-    expect(result).toBe(".");
-  })
-  it("Translates f to ..-." , () => {
-    const result = translate("f")
-    expect(result).toBe("..-.")
-})
 it("Translates g to --." , () => {
     const result = translate("g")
     expect(result).toBe("--.")
